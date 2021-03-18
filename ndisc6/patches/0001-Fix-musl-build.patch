@@ -1,0 +1,12 @@
+Index: ndisc6-1.0.4/src/trace-tcp.c
+===================================================================
+--- ndisc6-1.0.4.orig/src/trace-tcp.c
++++ ndisc6-1.0.4/src/trace-tcp.c
+@@ -21,7 +21,6 @@
+ # include <config.h>
+ #endif
+
+-#undef _GNU_SOURCE
+ #define _DEFAULT_SOURCE 1
+
+ #include <string.h>
